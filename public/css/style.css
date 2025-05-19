@@ -1,0 +1,137 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary-1: #2b8379;
+    --primary-2: #19a596;
+    --primary-3: #7fd1c7;
+    --primary-4: #7fd1c7;
+    --primary-5: #d0f3ef;
+    --primary-6: #f00000;
+    --neutral-1: #2c2c2c;
+    --neutral-2: #434343;
+    --neutral-3: #94868b;
+    --neutral-4: #d9cfd3;
+    --neutral-5: #f2ecee;
+    --accent-1: #970e3d;
+    --accent-2: #c43464;
+    --accent-3: #de7699;
+    --accent-4: #e6c3ce;
+    --accent-5: #fff2f7;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--neutral-5);
+    margin: 0;
+    padding: 2em;
+    color: var(--neutral-1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 2em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .label {
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 500px;
+    width: 100%;
+    gap: 0;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 0.75em 0.5em;
+    font-size: 16px;
+    border: none;
+    border-left: 7px solid var(--neutral-4);
+    background-color: var(--white);
+    transition: border-left-color 160ms;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-left-color: var(--primary-1);
+  }
+  
+  button {
+    padding: 0.75em 1.5em;
+    background-color: var(--primary-1);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: var(--primary-2);
+  }
+  
+  .alert {
+    color: var(--accent-1);
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    background-color: var(--white);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  table thead {
+    background-color: var(--primary-1);
+    color: var(--white);
+  }
+  
+  table th,
+  table td {
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: var(--neutral-5);
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: var(--white);
+  }
+  
