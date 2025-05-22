@@ -1,2 +1,2 @@
 # Laravel Open Wheather application
-Simple application working with "openweather" key.
+Simple laravel application which works using "personal openweather" key and fetching data from https://openweathermap.org/api/.
