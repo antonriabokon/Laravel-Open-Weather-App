@@ -1,2 +1,2 @@
 # Laravel Open Wheather application
-Simple laravel application which works using "personal openweather" key and fetching data from https://openweathermap.org/api/.
+Simple laravel weather application which allows you to enter location and renders for you current weather, works using "personal openweather" key and fetching data from https://openweathermap.org/api/.
